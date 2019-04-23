@@ -1,0 +1,63 @@
+.img-cnt {
+	margin-top: 170px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.weapon {
+	width: 198px;
+	height: 198px;
+	display: inline-block;
+	border: 1px solid darkgray;
+	border-radius: 6.5em;
+}
+
+.weapon:not(:last-child) {
+	margin-right: 20px;
+}
+
+.weapon:hover {
+	box-shadow: 0px 0px 5px 0px greenyellow;
+}
+
+p {
+	margin: 80px auto;
+	display: block;
+	text-align: center;
+	font-size: 2em;
+}
+
+.pPortrait {
+	border: 1px solid greenyellow;
+}
+
+.cPortrait {
+	border: 1px solid orangered;
+}
+
+.portrait {
+	margin-top: 75px;
+	width: 100px;
+	height: 100px;
+	border-radius: .5em;
+}
+
+.participant-container {
+	width: 30%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.pScore {
+	font-size: 1.5em;
+	margin-top: 5px;
+}
+
+.cScore {
+	font-size: 1.5em;
+	margin-top: 5px;
+}
